@@ -25,6 +25,14 @@ public class GameManager : MonoBehaviour
     public Button mainMenuButtonPause;
     public Button quitButton;
 
+    public GameObject exitMessagePanel; // New panel for "Now get out!" message
+    public TMP_Text exitMessageText;
+
+    public DoorController[] frontDoors;
+    public DoorController[] backDoors;
+
+    public bool gameWon = false;
+    private bool canExit = false; // Controls when the player can exit
 
     public StudioEventEmitter CyclesMusic; // Reference to the FMOD sound event
 
@@ -43,6 +51,7 @@ public class GameManager : MonoBehaviour
         countText.text = "Objects Collected: 0 / 5";
 
         winPanel.SetActive(false); // Hide the "You Win!" panel at the start
+        exitMessagePanel.SetActive(false); // Hide exit message initially
 
         // Add listeners to buttons
         nextLevelButton.onClick.AddListener(NextLevel);
@@ -56,6 +65,18 @@ public class GameManager : MonoBehaviour
         resumeButton.onClick.AddListener(ResumeGame);
         mainMenuButtonPause.onClick.AddListener(BackToMainMenu);
         quitButton.onClick.AddListener(QuitGame);
+
+        // Keep front doors open at the start
+        foreach (var door in frontDoors)
+        {
+            door.OpenDoor();
+        }
+
+        // Keep back doors closed initially
+        foreach (var door in backDoors)
+        {
+            door.CloseDoor();
+        }
     }
 
 
@@ -143,6 +164,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Object already collected: " + objectName);
             }
         }
+
     }
 
     // Switch the sound of the picked object to 2D
@@ -209,13 +231,34 @@ public class GameManager : MonoBehaviour
         // Unlock the mouse and make it visible
         Cursor.lockState = CursorLockMode.None; // Unlock the cursor
         Cursor.visible = true; // Make the cursor visible
+
+        gameWon = true; // Player has won
     }
 
     // Loads the next scene (replace with actual scene names)
     void NextLevel()
     {
-        Time.timeScale = 1f; // Resume the game
-        SceneManager.LoadScene("Unknown"); // Replace "NextLevel" with your actual scene name
+        Time.timeScale = 1f;
+        winPanel.SetActive(false); // Close win panel
+
+        exitMessagePanel.SetActive(true); // Show "Now get out!" message
+        exitMessageText.text = "Now get out from the office!";
+        canExit = true; // Allow player to exit
+    }
+
+    void OpenBackDoors()
+    {
+        if (gameWon) // Only open doors after winning
+        {
+            foreach (var door in backDoors)
+            {
+                door.OpenDoor();
+            }
+        }
+        else
+        {
+            Debug.Log("Back doors remain locked until you win!");
+        }
     }
 
     // Returns to the main menu
@@ -224,5 +267,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f; // Resume the game
         SceneManager.LoadScene("MainMenu"); // Replace with your main menu scene name
     }
+
 }
 

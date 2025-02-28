@@ -9,11 +9,25 @@ public class Door : MonoBehaviour, IInteractable
     private bool doorOpen = false;
     private bool isAnimating = false;
 
+    private GameManager gameManager; // Reference to GameManager
+
+    private void Start()
+    {
+        gameManager = FindObjectOfType<GameManager>(); // Get reference to GameManager
+    }
+
     public bool Interact()
     {
+        // Prevent back doors from opening until game is won
+        if (!gameManager.gameWon && IsBackDoor())
+        {
+            Debug.Log("Back doors remain locked until you win!");
+            return false;
+        }
+
         if (!isAnimating)
         {
-            StartCoroutine(ToggleDoor());
+            GetComponent<DoorController>()?.OpenDoor();
             return true;
         }
         return false;
@@ -34,5 +48,18 @@ public class Door : MonoBehaviour, IInteractable
 
         doorOpen = !doorOpen;
         isAnimating = false;
+    }
+
+    private bool IsBackDoor()
+    {
+        return gameObject.CompareTag("BackDoor"); // Ensure back doors have tag "BackDoor"
+    }
+
+    public void CloseDoor()
+    {
+        if (doorOpen && !isAnimating) // Only close if it's open
+        {
+            StartCoroutine(ToggleDoor());
+        }
     }
 }
