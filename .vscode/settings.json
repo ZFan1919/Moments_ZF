@@ -51,9 +51,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Moments.sln",
-"dotnetAcquisitionExtension.existingDotnetPath": [
-    
+    "dotnet.defaultSolution": "Moments_2.sln",
+    "dotnetAcquisitionExtension.existingDotnetPath": [
         {
             "extensionId": "ms-dotnettools.csdevkit",
             "path": "/usr/local/share/dotnet/dotnet"

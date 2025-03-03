@@ -5,9 +5,16 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
+    private Quaternion initialRotation; // Store original closed rotation
+
     public bool isBackDoor; // Set in Inspector (true for back doors, false for front doors)
     private bool isOpen = false;
     private bool isLocked = false; // New lock variable
+
+    private void Start()
+    {
+        initialRotation = transform.localRotation; // Save initial closed rotation
+    }
 
     public void LockDoor()
     {
@@ -55,17 +62,14 @@ public class DoorController : MonoBehaviour
         }
     }
 
+    
     IEnumerator CloseDoorRoutine()
     {
         float duration = 1.0f; // Time to close the door in seconds
         float elapsedTime = 0;
 
-        // Get the initial Y rotation of the door
-        float initialYRotation = transform.localRotation.eulerAngles.y;
-
-        // Determine the correct closed rotation based on initial rotation
         Quaternion startRotation = transform.localRotation;
-        Quaternion endRotation = Quaternion.Euler(0, Mathf.Round(initialYRotation / 180) * 180, 0);
+        Quaternion endRotation = initialRotation; // Always return to original closed rotation
 
         while (elapsedTime < duration)
         {
@@ -74,6 +78,8 @@ public class DoorController : MonoBehaviour
             yield return null;
         }
 
-        transform.localRotation = endRotation; // Ensure it reaches exact closed position
+        transform.localRotation = endRotation; // Ensure exact final position
     }
+
+
 }
