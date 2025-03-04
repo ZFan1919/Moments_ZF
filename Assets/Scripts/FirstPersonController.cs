@@ -540,11 +540,13 @@ public class FirstPersonController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, interactDistance))
             {
-                IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+                Interactable interactable = hit.collider.GetComponentInParent<Interactable>();
+                if (interactable != null) interactable.Interact();
+                /*IInteractable interactable = hit.collider.GetComponent<IInteractable>();
                 if (interactable != null)
                 {
                     interactable.Interact();
-                }
+                }*/
             }
         }
     }
