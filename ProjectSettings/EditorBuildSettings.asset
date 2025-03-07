@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cycles.unity
     guid: 2d7d6d370048f754e8a6d3d50d8d922b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Unknown.unity
     guid: e6a65a4ca5ef48242acea6be7311cec1
   - enabled: 1

@@ -5,26 +5,36 @@ using UnityEngine;
 public class DoorHandler : MonoBehaviour
 {
     Animator animator;
-    [SerializeField] Collider collider;
     [SerializeField] bool isOpened = false;
+    public bool isInteractable
+    {
+        get => _isInteractable;
+        set => _isInteractable = value;
+    }
+    [SerializeField] bool _isInteractable = true;
+    
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        collider = GetComponentInChildren<Collider>();
+        Switch(isOpened);
     }
 
     public void Interact()
     {
-        isOpened = !isOpened;
-        collider.isTrigger = isOpened;
-        animator.SetBool("Open", isOpened);
+        if (!isInteractable) return;
+        Switch(!isOpened);
     }
 
-    public void Close()
+    public void Lock()
     {
-        isOpened = false;
-        collider.isTrigger = isOpened;
+        Switch(false);
+        isInteractable = false;
+    }
+
+    void Switch(bool opened)
+    {
+        isOpened = opened;
         animator.SetBool("Open", isOpened);
     }
 }
