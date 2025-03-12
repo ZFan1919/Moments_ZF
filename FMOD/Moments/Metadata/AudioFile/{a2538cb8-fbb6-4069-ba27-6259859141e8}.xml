@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a2538cb8-fbb6-4069-ba27-6259859141e8}">
 		<property name="assetPath">
-			<value>Cycles/Sounds/BottleShake_08.wav</value>
+			<value>Office_Cycles/Sounds/BottleShake_08.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
