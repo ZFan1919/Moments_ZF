@@ -5,7 +5,7 @@
 			<value>3DSounds</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3fcc5b40-fbe6-490f-816f-220fabfd0863}</destination>
+			<destination>{8b9da619-fa39-461b-9770-7d2af165ee6d}</destination>
 		</relationship>
 	</object>
 </objects>
