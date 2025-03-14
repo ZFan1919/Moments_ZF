@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{91c080b4-6d85-41df-a904-d84505e1d25e}">
 		<property name="assetPath">
-			<value>Office_Cycles/Ambience/amb_Hallway_lp.wav</value>
+			<value>L1Office_Cycles/Ambience/amb_Hallway_lp.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

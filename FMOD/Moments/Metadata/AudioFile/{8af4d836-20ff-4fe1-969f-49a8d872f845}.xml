@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8af4d836-20ff-4fe1-969f-49a8d872f845}">
 		<property name="assetPath">
-			<value>Office_Cycles/Sounds/sfx_DropTick_03.wav</value>
+			<value>L1Office_Cycles/Sounds/sfx_DropTick_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

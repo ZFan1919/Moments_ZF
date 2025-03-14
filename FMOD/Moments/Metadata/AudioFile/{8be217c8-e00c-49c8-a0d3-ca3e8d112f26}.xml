@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8be217c8-e00c-49c8-a0d3-ca3e8d112f26}">
 		<property name="assetPath">
-			<value>Office_Cycles/MusicStem/Major project Voilin.wav</value>
+			<value>L1Office_Cycles/MusicStem/Major project Voilin.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
