@@ -141,7 +141,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3d988aac-9c1e-4268-a6ae-7e47b01305a7}">
 		<property name="volume">
-			<value>-80</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Flute</value>
@@ -166,7 +166,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{feb67394-0c9b-4966-93ad-166bc9f6d69c}">
 		<property name="volume">
-			<value>-80</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Piano</value>
@@ -191,7 +191,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{398be225-3e18-46c7-8782-4e3d2caf1446}">
 		<property name="volume">
-			<value>-80</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Horn</value>
@@ -216,7 +216,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{05a8d0d9-976e-4450-9e5b-12781dc22f17}">
 		<property name="volume">
-			<value>-80</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Tuba</value>
@@ -241,7 +241,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{80a05216-cf1b-4cc2-8654-ec9291001dd5}">
 		<property name="volume">
-			<value>-80</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Shaker</value>

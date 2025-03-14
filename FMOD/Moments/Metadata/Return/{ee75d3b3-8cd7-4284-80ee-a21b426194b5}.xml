@@ -21,10 +21,14 @@
 		<relationship name="effects">
 			<destination>{14e660a6-d6a3-4b2e-97bf-5d8fabf4187e}</destination>
 			<destination>{fbaf3ba1-aa3d-4e78-bdc2-11a3d72f2e8e}</destination>
+			<destination>{14a3be7f-19ba-4ba2-a715-2e9b7928b7ff}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ce2b6cb6-9c7b-4be7-86a5-4f2fc691bb2d}" />
 	<object class="SFXReverbEffect" id="{14e660a6-d6a3-4b2e-97bf-5d8fabf4187e}">
+		<property name="lowShelfFrequency">
+			<value>650</value>
+		</property>
 		<property name="wetLevel">
 			<value>0</value>
 		</property>
@@ -33,4 +37,5 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fbaf3ba1-aa3d-4e78-bdc2-11a3d72f2e8e}" />
+	<object class="ConvolutionReverbEffect" id="{14a3be7f-19ba-4ba2-a715-2e9b7928b7ff}" />
 </objects>
