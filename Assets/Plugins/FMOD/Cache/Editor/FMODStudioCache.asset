@@ -81,6 +81,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 70745
+--- !u!114 &-7193589546574022986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Indoor
+  m_EditorClassIdentifier: 
+  Name: Indoor
+  StudioPath: parameter:/Indoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3378697653
+    data2: 4055506963
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6893032587918848918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,10 +356,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638775546128147694
+  lastModified: 638777293394457687
   FileSizes:
   - Name: Desktop
-    Value: 2106
+    Value: 2216
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -380,12 +404,14 @@ MonoBehaviour:
   - {fileID: 8283463926296032605}
   - {fileID: 764858886161813254}
   - {fileID: 5305607142500271518}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 4128461394545709697}
+  - {fileID: -7193589546574022986}
   MasterBanks:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638775546128147694
+  cacheTime: 638777293394457687
   cacheVersion: 131622
 --- !u!114 &427328788121810078
 MonoBehaviour:
@@ -656,6 +682,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &4128461394545709697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Outdoor
+  m_EditorClassIdentifier: 
+  Name: Outdoor
+  StudioPath: parameter:/Outdoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 276439152
+    data2: 3309105108
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4809189091761036105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,10 +721,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638775546128142682
+  lastModified: 638777293394413946
   FileSizes:
   - Name: Desktop
-    Value: 8738176
+    Value: 8740736
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:

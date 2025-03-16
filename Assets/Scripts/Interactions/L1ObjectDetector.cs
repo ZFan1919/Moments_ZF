@@ -46,5 +46,3 @@ public class L1ObjectDetector : MonoBehaviour
         countText.text = "Objects Collected: " + collectedObjects.Count + " / " + requiredObjects.Count;
     }
 }
-
-
