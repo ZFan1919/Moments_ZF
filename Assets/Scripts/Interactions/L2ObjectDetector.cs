@@ -43,7 +43,7 @@ public class L2ObjectDetector : MonoBehaviour
 
     void UpdateCountText()
     {
-        countText.text = "Objects Collected: " + collectedObjects.Count + " / " + requiredObjects.Count;
+        countText.text = "Number of friends: " + collectedObjects.Count + " / " + requiredObjects.Count;
     }
 }
 

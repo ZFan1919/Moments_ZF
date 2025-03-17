@@ -43,6 +43,6 @@ public class L1ObjectDetector : MonoBehaviour
 
     void UpdateCountText()
     {
-        countText.text = "Objects Collected: " + collectedObjects.Count + " / " + requiredObjects.Count;
+        countText.text = "Number of Office Objects Collected: " + collectedObjects.Count + " / " + requiredObjects.Count;
     }
 }
