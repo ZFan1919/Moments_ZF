@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f3ae0eda-e37e-4495-aff2-911e2c9ade1e}">
+		<property name="assetPath">
+			<value>WorldSounds/Door/sfx_DoorLock_nl_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.0840624999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0777ee3f-a60c-45c6-a385-4f62aa2bc9eb}</destination>
+		</relationship>
+	</object>
+</objects>

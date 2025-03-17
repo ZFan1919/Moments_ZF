@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a3848f2c-5875-49aa-8f90-f45a232d7cd1}">
+		<property name="assetPath">
+			<value>WorldSounds/Door/sfx_DoorOpenPush_nl_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.63085416666666672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0777ee3f-a60c-45c6-a385-4f62aa2bc9eb}</destination>
+		</relationship>
+	</object>
+</objects>

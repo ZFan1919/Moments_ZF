@@ -132,6 +132,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &-5737592678079389997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorOpen
+  Guid:
+    Data1: -895892406
+    Data2: 1126191284
+    Data3: 1394550193
+    Data4: 338959613
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1490
 --- !u!114 &-4138122886674381829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +259,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3420109260813849053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorLock
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorLock
+  Guid:
+    Data1: 788735842
+    Data2: 1112757774
+    Data3: 769881775
+    Data4: -1528269782
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2084
 --- !u!114 &-2255597098148707328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,10 +410,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638777293394457687
+  lastModified: 638778093150858329
   FileSizes:
   - Name: Desktop
-    Value: 2216
+    Value: 2378
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -404,6 +458,9 @@ MonoBehaviour:
   - {fileID: 8283463926296032605}
   - {fileID: 764858886161813254}
   - {fileID: 5305607142500271518}
+  - {fileID: 6058163598530499810}
+  - {fileID: -5737592678079389997}
+  - {fileID: -3420109260813849053}
   EditorParameters:
   - {fileID: 4128461394545709697}
   - {fileID: -7193589546574022986}
@@ -411,7 +468,7 @@ MonoBehaviour:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638777293394457687
+  cacheTime: 638778093150858329
   cacheVersion: 131622
 --- !u!114 &427328788121810078
 MonoBehaviour:
@@ -721,10 +778,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638777293394413946
+  lastModified: 638778093150808033
   FileSizes:
   - Name: Desktop
-    Value: 8740736
+    Value: 8833600
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:
@@ -807,6 +864,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &6058163598530499810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorLockPush
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorLockPush
+  Guid:
+    Data1: 241110302
+    Data2: 1271388232
+    Data3: 2039484835
+    Data4: -661619828
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 142
 --- !u!114 &6477920106270979972
 MonoBehaviour:
   m_ObjectHideFlags: 0
