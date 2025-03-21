@@ -10,7 +10,7 @@ public class L3ObjectDetector : MonoBehaviour
     [SerializeField] UnityEvent onMeetCount = new UnityEvent(); // Event triggered when all objects are collected
 
     // List of required objects
-    private HashSet<string> requiredObjects = new HashSet<string> { "Trash Can", "Pen Cup", "Plant", "Computer", "Chair" };
+    private HashSet<string> requiredObjects = new HashSet<string> { "Book", "Blanket", "Cat", "Glass", "Guitar" };
     private HashSet<string> collectedObjects = new HashSet<string>(); // Track collected objects by name
 
     void Start()

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{d8ccbd6e-be79-4ac2-b058-fd2c3e797cc7}">
+		<property name="name">
+			<value>L3HouseSounds</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{50d02194-4e4f-4563-95d3-f13656d30e7d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b1aba6d7-1657-4204-a002-67aaeb44280f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e603060f-a979-4118-8395-e64b6c0736b5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{50d02194-4e4f-4563-95d3-f13656d30e7d}">
+		<relationship name="effects">
+			<destination>{abb2fa68-8344-49ce-b0a0-35d2d0a4be9a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b1aba6d7-1657-4204-a002-67aaeb44280f}" />
+	<object class="MixerBusFader" id="{abb2fa68-8344-49ce-b0a0-35d2d0a4be9a}" />
+</objects>

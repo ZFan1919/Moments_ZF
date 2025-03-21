@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{43f3d87c-b493-488e-862d-7bddd1e89e4d}">
+		<property name="name">
+			<value>L2Forest</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5a549dfc-d8e4-45ed-b64b-56210651a499}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d09ccf94-50c5-43d4-8dfd-1b1e940bd0a0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4f374783-4c4c-48bf-905f-160e5958a427}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5a549dfc-d8e4-45ed-b64b-56210651a499}">
+		<relationship name="effects">
+			<destination>{3001dae4-8e31-42d5-90fd-00da2ade4661}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d09ccf94-50c5-43d4-8dfd-1b1e940bd0a0}" />
+	<object class="MixerBusFader" id="{3001dae4-8e31-42d5-90fd-00da2ade4661}" />
+</objects>
