@@ -572,11 +572,38 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638781549095724250
+  lastModified: 638782359054507243
   FileSizes:
   - Name: Desktop
     Value: 3674
   Exists: 1
+--- !u!114 &-202906620749070790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
+  Guid:
+    Data1: 1232699573
+    Data2: 1292852275
+    Data3: 243465127
+    Data4: 557125991
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 356
 --- !u!114 &-150176037452311864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,7 +666,6 @@ MonoBehaviour:
   - {fileID: 427328788121810078}
   - {fileID: 2464061725385810546}
   - {fileID: -6893032587918848918}
-  - {fileID: 3454815712262939251}
   - {fileID: 2575625034169273757}
   - {fileID: -3935176070588199330}
   - {fileID: 2654760772598807101}
@@ -666,6 +692,7 @@ MonoBehaviour:
   - {fileID: 2805231121235425349}
   - {fileID: 2515759396347993295}
   - {fileID: 1562071721409757340}
+  - {fileID: -202906620749070790}
   EditorParameters:
   - {fileID: 4128461394545709697}
   - {fileID: -7193589546574022986}
@@ -673,7 +700,7 @@ MonoBehaviour:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638781549095724250
+  cacheTime: 638782359054507243
   cacheVersion: 131622
 --- !u!114 &75943705931121800
 MonoBehaviour:
@@ -1052,33 +1079,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &3454815712262939251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Sounds/2DSounds/DropTick
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Sounds/2DSounds/DropTick
-  Guid:
-    Data1: 1232699573
-    Data2: 1292852275
-    Data3: 243465127
-    Data4: 557125991
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 356
 --- !u!114 &3580085520708265523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,10 +1172,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638781549095674246
+  lastModified: 638782359054447221
   FileSizes:
   - Name: Desktop
-    Value: 16310688
+    Value: 16310976
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:

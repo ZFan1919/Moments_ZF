@@ -5,10 +5,10 @@
 			<value>DropTick</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f5bf1d33-e1e7-48ee-abfe-52d0204cdc53}</destination>
+			<destination>{eac78ffa-2b33-4244-aab0-a3423a216e89}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{5ef2f652-e801-4c37-83c2-f75b3bd5dbb7}</destination>
@@ -170,6 +170,7 @@
 	<object class="MixerBusEffectChain" id="{f69f1fa9-ba1e-4f27-b412-5e39a7b51cc7}">
 		<relationship name="effects">
 			<destination>{7060fbc4-070a-4d66-b976-c3e30e1167e0}</destination>
+			<destination>{b62dad54-d0e3-44cf-be5c-a0e76ee97a85}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2832f02-747e-4ca0-b044-db56c834b23c}" />
@@ -221,6 +222,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{9c03ea0a-e76f-48d6-8b55-93167305930a}" />
 	<object class="MixerBusFader" id="{7060fbc4-070a-4d66-b976-c3e30e1167e0}" />
+	<object class="SpatialiserEffect" id="{b62dad54-d0e3-44cf-be5c-a0e76ee97a85}" />
 	<object class="AutomationPoint" id="{6fc2b9c4-205a-47fd-b361-d55eeb9b141a}">
 		<property name="position">
 			<value>0.26500000000000001</value>

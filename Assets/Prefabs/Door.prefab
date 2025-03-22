@@ -129,7 +129,7 @@ MonoBehaviour:
       Data2: 1292852275
       Data3: 243465127
       Data4: 557125991
-    Path: event:/L1Office_Cycles/Sounds/2DSounds/DropTick
+    Path: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
