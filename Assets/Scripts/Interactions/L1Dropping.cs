@@ -5,7 +5,7 @@ using FMODUnity; // FMOD Studio for audio
 
 public class L1Dropping : MonoBehaviour
 {
-    public StudioEventEmitter DropSound; // Reference to the FMOD Event Emitter for the drop sound
+    public StudioEventEmitter DropOffice; // Reference to the FMOD Event Emitter for the drop sound
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class L1Dropping : MonoBehaviour
         if (other.CompareTag("CanPickUp"))
         {
             // Play the drop sound
-            DropSound.Play();
+            DropOffice.Play();
         }
     }
 }

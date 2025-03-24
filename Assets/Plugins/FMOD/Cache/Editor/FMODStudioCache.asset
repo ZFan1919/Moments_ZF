@@ -572,10 +572,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638782359054507243
+  lastModified: 638784307318227838
   FileSizes:
   - Name: Desktop
-    Value: 3674
+    Value: 3860
   Exists: 1
 --- !u!114 &-202906620749070790
 MonoBehaviour:
@@ -693,6 +693,9 @@ MonoBehaviour:
   - {fileID: 2515759396347993295}
   - {fileID: 1562071721409757340}
   - {fileID: -202906620749070790}
+  - {fileID: 7838451880288066867}
+  - {fileID: 2619931955297511127}
+  - {fileID: 5985002334078447531}
   EditorParameters:
   - {fileID: 4128461394545709697}
   - {fileID: -7193589546574022986}
@@ -700,7 +703,7 @@ MonoBehaviour:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638782359054507243
+  cacheTime: 638784307318227838
   cacheVersion: 131622
 --- !u!114 &75943705931121800
 MonoBehaviour:
@@ -1000,6 +1003,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 70745
+--- !u!114 &2619931955297511127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
+  Guid:
+    Data1: -1184819512
+    Data2: 1302744748
+    Data3: 1131900050
+    Data4: 1241720756
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 99696
 --- !u!114 &2654760772598807101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,10 +1202,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638782359054447221
+  lastModified: 638784307318172112
   FileSizes:
   - Name: Desktop
-    Value: 16310976
+    Value: 17712960
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:
@@ -1258,6 +1288,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &5985002334078447531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
+  Guid:
+    Data1: 279714297
+    Data2: 1084613705
+    Data3: -617134184
+    Data4: 1771923363
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 566
 --- !u!114 &5999188293080624288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,6 +1450,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 206
+--- !u!114 &7838451880288066867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Sounds/2DSounds/PickUpForest
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Sounds/2DSounds/PickUpForest
+  Guid:
+    Data1: -1648112750
+    Data2: 1191405252
+    Data3: 1823932077
+    Data4: -1299729238
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 460
 --- !u!114 &8070121643822932105
 MonoBehaviour:
   m_ObjectHideFlags: 0
