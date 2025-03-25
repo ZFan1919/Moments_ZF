@@ -572,10 +572,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638784307318227838
+  lastModified: 638784995551548460
   FileSizes:
   - Name: Desktop
-    Value: 3860
+    Value: 4082
   Exists: 1
 --- !u!114 &-202906620749070790
 MonoBehaviour:
@@ -696,6 +696,10 @@ MonoBehaviour:
   - {fileID: 7838451880288066867}
   - {fileID: 2619931955297511127}
   - {fileID: 5985002334078447531}
+  - {fileID: 6552928997125069079}
+  - {fileID: 6890950948566025579}
+  - {fileID: 4482515587143634772}
+  - {fileID: 2941371239523706089}
   EditorParameters:
   - {fileID: 4128461394545709697}
   - {fileID: -7193589546574022986}
@@ -703,7 +707,7 @@ MonoBehaviour:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638784307318227838
+  cacheTime: 638784995551548460
   cacheVersion: 131622
 --- !u!114 &75943705931121800
 MonoBehaviour:
@@ -1085,6 +1089,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56571
+--- !u!114 &2941371239523706089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
+  Guid:
+    Data1: -1446083869
+    Data2: 1167680464
+    Data3: 957930428
+    Data4: 1171032112
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
 --- !u!114 &3067412575615996150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,6 +1218,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &4482515587143634772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
+  Guid:
+    Data1: -1730935329
+    Data2: 1270746351
+    Data3: 432774
+    Data4: -1761007346
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125
 --- !u!114 &4809189091761036105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,10 +1260,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638784307318172112
+  lastModified: 638784995551488453
   FileSizes:
   - Name: Desktop
-    Value: 17712960
+    Value: 17805952
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:
@@ -1396,6 +1454,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &6552928997125069079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Guitar
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Guitar
+  Guid:
+    Data1: 1995109674
+    Data2: 1227517882
+    Data3: -1555103872
+    Data4: -559086988
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 330
+--- !u!114 &6890950948566025579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  Guid:
+    Data1: 1586764945
+    Data2: 1237519672
+    Data3: -1023415141
+    Data4: 1303650382
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 225
 --- !u!114 &6904783438897472486
 MonoBehaviour:
   m_ObjectHideFlags: 0
