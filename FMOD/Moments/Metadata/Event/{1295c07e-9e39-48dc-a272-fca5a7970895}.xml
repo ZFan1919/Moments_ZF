@@ -5,7 +5,7 @@
 			<value>Shaker</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{471bc1d5-e124-4a88-947d-3c8313123cba}</destination>
@@ -152,6 +152,7 @@
 	<object class="MixerBusEffectChain" id="{3f62375e-51ab-406f-a0b0-44cadfd1888f}">
 		<relationship name="effects">
 			<destination>{30061a28-c828-4a49-95a0-aebe09e36210}</destination>
+			<destination>{01f00db1-dd53-4dbb-a06a-ffd11da2b0df}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f40c826e-99dc-4a22-bc36-1c0f0db47dc5}" />
@@ -162,4 +163,12 @@
 	</object>
 	<object class="MixerBusFader" id="{a1671424-a42d-4603-be4e-7dade2209f58}" />
 	<object class="MixerBusFader" id="{30061a28-c828-4a49-95a0-aebe09e36210}" />
+	<object class="PannerEffect" id="{01f00db1-dd53-4dbb-a06a-ffd11da2b0df}">
+		<property name="stereoPan">
+			<value>15</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

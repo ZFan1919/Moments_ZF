@@ -5,7 +5,7 @@
 			<value>Bell2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1688fc8-3b10-41ca-8dfc-6e0f3c29e136}</destination>
@@ -155,6 +155,7 @@
 	<object class="MixerBusEffectChain" id="{c7aa26ea-f3d1-4ca6-851c-7b65854f1e32}">
 		<relationship name="effects">
 			<destination>{a650bc2b-b08b-41b6-aaf1-d522f5c05a76}</destination>
+			<destination>{b61485b8-b5ae-41d9-af44-6a10fa43370c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0b3619d4-dc5f-47d9-ab38-93ef8c346f47}" />
@@ -165,4 +166,12 @@
 	</object>
 	<object class="MixerBusFader" id="{cdc3f2d2-2033-4e7d-a0b3-d53a0c53ba29}" />
 	<object class="MixerBusFader" id="{a650bc2b-b08b-41b6-aaf1-d522f5c05a76}" />
+	<object class="PannerEffect" id="{b61485b8-b5ae-41d9-af44-6a10fa43370c}">
+		<property name="stereoPan">
+			<value>15</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

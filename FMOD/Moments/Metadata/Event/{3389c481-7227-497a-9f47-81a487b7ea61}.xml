@@ -5,7 +5,7 @@
 			<value>Horn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{471bc1d5-e124-4a88-947d-3c8313123cba}</destination>
@@ -152,6 +152,7 @@
 	<object class="MixerBusEffectChain" id="{3bfe59fd-25e3-4b2e-9a29-fc99e4107885}">
 		<relationship name="effects">
 			<destination>{aee6986a-3850-4492-be14-42aef6567648}</destination>
+			<destination>{b7a1fb2c-7ef2-4f20-b629-781498cc345c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9c40f6e0-5c80-42e5-a971-43eb5e71089b}" />
@@ -162,4 +163,12 @@
 	</object>
 	<object class="MixerBusFader" id="{ea3e77d9-731a-490a-badc-08641b716342}" />
 	<object class="MixerBusFader" id="{aee6986a-3850-4492-be14-42aef6567648}" />
+	<object class="PannerEffect" id="{b7a1fb2c-7ef2-4f20-b629-781498cc345c}">
+		<property name="stereoPan">
+			<value>-10</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

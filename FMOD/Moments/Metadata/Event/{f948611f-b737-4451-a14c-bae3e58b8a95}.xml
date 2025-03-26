@@ -5,7 +5,7 @@
 			<value>Tuba</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{471bc1d5-e124-4a88-947d-3c8313123cba}</destination>
@@ -152,6 +152,7 @@
 	<object class="MixerBusEffectChain" id="{03aba77b-36fb-4613-8ab5-75e0cc66108a}">
 		<relationship name="effects">
 			<destination>{e88b68a2-a5ec-4504-a23e-51dc3a969126}</destination>
+			<destination>{447a25c9-d9a4-4cb6-9d17-e82d0419b8b4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{197a2122-24d6-40ec-a371-3a9bdd1378e5}" />
@@ -162,4 +163,12 @@
 	</object>
 	<object class="MixerBusFader" id="{4d19c6fb-9b38-421e-b71a-1725e17657ca}" />
 	<object class="MixerBusFader" id="{e88b68a2-a5ec-4504-a23e-51dc3a969126}" />
+	<object class="PannerEffect" id="{447a25c9-d9a4-4cb6-9d17-e82d0419b8b4}">
+		<property name="stereoPan">
+			<value>10</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

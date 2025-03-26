@@ -102,7 +102,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -129,7 +129,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -162,6 +162,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 127735
+--- !u!114 &-7847625332890549347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Clarinet/Mix
+  m_EditorClassIdentifier: 
+  Name: Mix
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2538558641
+    data2: 1384653202
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7193589546574022986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +210,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-6893032587918848918
+--- !u!114 &-7159234598171075750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,23 +220,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/3DStems/Piano
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
   m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/3DStems/Piano
+  Path: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
   Guid:
-    Data1: 163454874
-    Data2: 1315568813
-    Data3: -1509831525
-    Data4: 108319501
+    Data1: -517680711
+    Data2: 1218190992
+    Data3: -670948428
+    Data4: 1708497054
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-6462865811261780055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Clarinet
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Clarinet
+  Guid:
+    Data1: 726865006
+    Data2: 1129957936
+    Data3: 1513736108
+    Data4: 1007731706
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -7847625332890549347}
   MinDistance: 1
   MaxDistance: 20
-  Length: 72000
+  Length: 70745
 --- !u!114 &-6186960586701660017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,7 +346,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1490
---- !u!114 &-4138122886674381829
+--- !u!114 &-4361213951624200989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -303,21 +355,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Viola/Mix
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/3DStems/Harp
   m_EditorClassIdentifier: 
-  Name: Mix
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2538558641
-    data2: 1384653202
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
+  Path: event:/L2Forest_Unknow/Music/3DStems/Harp
+  Guid:
+    Data1: 163454874
+    Data2: 1315568813
+    Data3: -1509831525
+    Data4: 108319501
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
 --- !u!114 &-3935176070588199330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,6 +425,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3566689587698291499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Harp
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/2DStems/Harp
+  Guid:
+    Data1: -249369545
+    Data2: 1260960348
+    Data3: -62823747
+    Data4: -699083526
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
 --- !u!114 &-3475943311116407584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,61 +530,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56571
---- !u!114 &-2255597098148707328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Piano
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Piano
-  Guid:
-    Data1: -249369545
-    Data2: 1260960348
-    Data3: -62823747
-    Data4: -699083526
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &-2162680240736672919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Viola
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Viola
-  Guid:
-    Data1: 726865006
-    Data2: 1129957936
-    Data3: 1513736108
-    Data4: 1007731706
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -4138122886674381829}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
 --- !u!114 &-1470257419879459302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,7 +578,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -572,10 +599,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638784995551548460
+  lastModified: 638785914472270599
   FileSizes:
   - Name: Desktop
-    Value: 4082
+    Value: 4114
   Exists: 1
 --- !u!114 &-202906620749070790
 MonoBehaviour:
@@ -654,19 +681,15 @@ MonoBehaviour:
   - {fileID: -639534785041871292}
   - {fileID: 6477920106270979972}
   - {fileID: -8085291557880746220}
-  - {fileID: -2255597098148707328}
   - {fileID: 8852504267928352067}
   - {fileID: 4004336690280825016}
   - {fileID: 6904783438897472486}
-  - {fileID: -2162680240736672919}
   - {fileID: 787606027047793761}
   - {fileID: 5725187182425231040}
   - {fileID: -8277588539573580250}
   - {fileID: 7632203668983053954}
   - {fileID: 427328788121810078}
   - {fileID: 2464061725385810546}
-  - {fileID: -6893032587918848918}
-  - {fileID: 2575625034169273757}
   - {fileID: -3935176070588199330}
   - {fileID: 2654760772598807101}
   - {fileID: -8655959379951315301}
@@ -700,6 +723,10 @@ MonoBehaviour:
   - {fileID: 6890950948566025579}
   - {fileID: 4482515587143634772}
   - {fileID: 2941371239523706089}
+  - {fileID: -3566689587698291499}
+  - {fileID: -6462865811261780055}
+  - {fileID: -4361213951624200989}
+  - {fileID: -7159234598171075750}
   EditorParameters:
   - {fileID: 4128461394545709697}
   - {fileID: -7193589546574022986}
@@ -707,7 +734,7 @@ MonoBehaviour:
   - {fileID: 4809189091761036105}
   StringsBanks:
   - {fileID: -420384192902456101}
-  cacheTime: 638784995551548460
+  cacheTime: 638785914472270599
   cacheVersion: 131622
 --- !u!114 &75943705931121800
 MonoBehaviour:
@@ -839,7 +866,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -980,33 +1007,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 56571
---- !u!114 &2575625034169273757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Viola2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Viola2D
-  Guid:
-    Data1: -517680711
-    Data2: 1218190992
-    Data3: -670948428
-    Data4: 1708497054
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
 --- !u!114 &2619931955297511127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,10 +1260,10 @@ MonoBehaviour:
   Path: FMOD/Moments/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638784995551488453
+  lastModified: 638785914472220593
   FileSizes:
   - Name: Desktop
-    Value: 17805952
+    Value: 15565344
   Exists: 1
 --- !u!114 &5028239331240767853
 MonoBehaviour:
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1

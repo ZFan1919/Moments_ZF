@@ -5,7 +5,7 @@
 			<value>Piano2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1688fc8-3b10-41ca-8dfc-6e0f3c29e136}</destination>
@@ -155,6 +155,7 @@
 	<object class="MixerBusEffectChain" id="{8dca8846-7f56-4af0-bc8c-a723f2f596b3}">
 		<relationship name="effects">
 			<destination>{73de797f-a2ca-4fe9-9c83-ff68f0e5a749}</destination>
+			<destination>{97f874d6-c403-497a-ae84-30d17385f494}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{36fa09b9-2be9-4fae-8b97-1c2d6475fe8b}" />
@@ -165,4 +166,12 @@
 	</object>
 	<object class="MixerBusFader" id="{07ac4126-c8e4-4ab5-8e30-d3e7d86ac3c2}" />
 	<object class="MixerBusFader" id="{73de797f-a2ca-4fe9-9c83-ff68f0e5a749}" />
+	<object class="PannerEffect" id="{97f874d6-c403-497a-ae84-30d17385f494}">
+		<property name="stereoPan">
+			<value>-15</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>
