@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{58359a7c-27eb-4fca-b772-f26611a1498c}">
+		<property name="assetPath">
+			<value>L2Forest_Unknown/MusicStem/mus_3-4_90_Forest_lp_Shaker.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>72</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0777ee3f-a60c-45c6-a385-4f62aa2bc9eb}</destination>
+		</relationship>
+	</object>
+</objects>

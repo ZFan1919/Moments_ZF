@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{bc4aa3da-bcf7-4eb6-b36b-27823f793868}" />
 	<object class="GroupTrack" id="{dab51c7e-755f-4765-87c3-77b3dea55cdf}">
 		<relationship name="modules">
-			<destination>{8d709e35-d060-466c-be00-0a4a215fc9a3}</destination>
+			<destination>{7e6b9195-ca5b-4292-a91f-6e9c56e3472d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{dd67e5aa-3de0-4206-9374-564799102d78}</destination>
@@ -68,10 +68,10 @@
 	</object>
 	<object class="Timeline" id="{f38cfd3b-aa52-4d40-8291-ab6b08d563d6}">
 		<relationship name="modules">
-			<destination>{8d709e35-d060-466c-be00-0a4a215fc9a3}</destination>
+			<destination>{7e6b9195-ca5b-4292-a91f-6e9c56e3472d}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{8d713c72-3685-414f-a530-77bf72b22a69}</destination>
+			<destination>{f5c843a6-7b19-4d1b-95bb-6abafc962dd3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cef6f8d2-e05b-448b-b55d-871faf50de52}">
@@ -94,9 +94,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3dd22f53-296c-4671-9914-085160fd8a8a}" />
-	<object class="SingleSound" id="{8d709e35-d060-466c-be00-0a4a215fc9a3}">
+	<object class="SingleSound" id="{7e6b9195-ca5b-4292-a91f-6e9c56e3472d}">
 		<property name="length">
-			<value>56.571437500000002</value>
+			<value>54.857145833333334</value>
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{dd67e5aa-3de0-4206-9374-564799102d78}">
@@ -113,12 +113,12 @@
 			<destination>{cef6f8d2-e05b-448b-b55d-871faf50de52}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{8d713c72-3685-414f-a530-77bf72b22a69}">
+	<object class="LoopRegion" id="{f5c843a6-7b19-4d1b-95bb-6abafc962dd3}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>56.571437500000002</value>
+			<value>54.857145833333334</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{f38cfd3b-aa52-4d40-8291-ab6b08d563d6}</destination>

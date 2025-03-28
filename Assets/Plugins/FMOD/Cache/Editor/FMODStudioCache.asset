@@ -1,168 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8915746163167917175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/2DStems/Kalimba
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/2DStems/Kalimba
-  Guid:
-    Data1: -321856727
-    Data2: 1337679456
-    Data3: -1689651313
-    Data4: 854691194
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &-8655959379951315301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Cello2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Cello2D
-  Guid:
-    Data1: 845077203
-    Data2: 1191188987
-    Data3: 1758358690
-    Data4: 1413654269
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-8556918248442150814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/3DStems/Drum
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/3DStems/Drum
-  Guid:
-    Data1: -1524034557
-    Data2: 1084613088
-    Data3: 1341683089
-    Data4: 708090951
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &-8277588539573580250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Horn
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Horn
-  Guid:
-    Data1: 864666753
-    Data2: 1232761383
-    Data3: -1535031393
-    Data4: 1642772359
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &-8085291557880746220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Bell2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Bell2D
-  Guid:
-    Data1: 569331504
-    Data2: 1281787229
-    Data3: 1321960621
-    Data4: 1115254091
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-7921857842969470344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Ambience/2DAmbience/Forest
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Ambience/2DAmbience/Forest
-  Guid:
-    Data1: 466088861
-    Data2: 1145097825
-    Data3: 1534923705
-    Data4: -1864519874
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 127735
---- !u!114 &-7847625332890549347
+--- !u!114 &-8980284990726644628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,1275 +24,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-7193589546574022986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Indoor
-  m_EditorClassIdentifier: 
-  Name: Indoor
-  StudioPath: parameter:/Indoor
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3378697653
-    data2: 4055506963
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-7159234598171075750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
-  Guid:
-    Data1: -517680711
-    Data2: 1218190992
-    Data3: -670948428
-    Data4: 1708497054
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-6462865811261780055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Clarinet
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Clarinet
-  Guid:
-    Data1: 726865006
-    Data2: 1129957936
-    Data3: 1513736108
-    Data4: 1007731706
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -7847625332890549347}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-6186960586701660017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/3DStems/Kalimba
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/3DStems/Kalimba
-  Guid:
-    Data1: 335769988
-    Data2: 1240339570
-    Data3: 1624051901
-    Data4: -753188210
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &-5850378285327906926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/2DStems/Guitar
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/2DStems/Guitar
-  Guid:
-    Data1: 470867573
-    Data2: 1082979983
-    Data3: -736869468
-    Data4: 2036404523
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &-5737592678079389997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/WorldSounds/Door/DoorOpen
-  m_EditorClassIdentifier: 
-  Path: event:/WorldSounds/Door/DoorOpen
-  Guid:
-    Data1: -895892406
-    Data2: 1126191284
-    Data3: 1394550193
-    Data4: 338959613
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1490
---- !u!114 &-4361213951624200989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/3DStems/Harp
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/3DStems/Harp
-  Guid:
-    Data1: 163454874
-    Data2: 1315568813
-    Data3: -1509831525
-    Data4: 108319501
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &-3935176070588199330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Cello
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Cello
-  Guid:
-    Data1: 1761317070
-    Data2: 1303425915
-    Data3: -2009610825
-    Data4: 2139419762
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3838963989245102464}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-3838963989245102464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Cello/Mix
-  m_EditorClassIdentifier: 
-  Name: Mix
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2538558641
-    data2: 1384653202
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-3566689587698291499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Harp
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Harp
-  Guid:
-    Data1: -249369545
-    Data2: 1260960348
-    Data3: -62823747
-    Data4: -699083526
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &-3475943311116407584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Violin/Mix
-  m_EditorClassIdentifier: 
-  Name: Mix
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2538558641
-    data2: 1384653202
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-3420109260813849053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/WorldSounds/Door/DoorLock
-  m_EditorClassIdentifier: 
-  Path: event:/WorldSounds/Door/DoorLock
-  Guid:
-    Data1: 788735842
-    Data2: 1112757774
-    Data3: 769881775
-    Data4: -1528269782
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2084
---- !u!114 &-3377837644373077274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/3DStems/Ring
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/3DStems/Ring
-  Guid:
-    Data1: -228861307
-    Data2: 1296835973
-    Data3: -97201274
-    Data4: 227516564
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &-1470257419879459302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/PhoneS
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Sounds/3DSounds/PhoneS
-  Guid:
-    Data1: 1492253194
-    Data2: 1285234819
-    Data3: -800439373
-    Data4: 1159891132
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &-639534785041871292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Tuba
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Tuba
-  Guid:
-    Data1: -112697057
-    Data2: 1146206007
-    Data3: -474329951
-    Data4: -1786082331
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &-420384192902456101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Moments/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638785914472270599
-  FileSizes:
-  - Name: Desktop
-    Value: 4114
-  Exists: 1
---- !u!114 &-202906620749070790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
-  Guid:
-    Data1: 1232699573
-    Data2: 1292852275
-    Data3: 243465127
-    Data4: 557125991
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 356
---- !u!114 &-150176037452311864
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 1
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 1
-  Guid:
-    Data1: -958272420
-    Data2: 1124084681
-    Data3: -113199720
-    Data4: 278940741
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 84118
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -420384192902456101}
-  - {fileID: 4809189091761036105}
-  EditorEvents:
-  - {fileID: 5028239331240767853}
-  - {fileID: -1470257419879459302}
-  - {fileID: 8894316350025162626}
-  - {fileID: 3580085520708265523}
-  - {fileID: -639534785041871292}
-  - {fileID: 6477920106270979972}
-  - {fileID: -8085291557880746220}
-  - {fileID: 8852504267928352067}
-  - {fileID: 4004336690280825016}
-  - {fileID: 6904783438897472486}
-  - {fileID: 787606027047793761}
-  - {fileID: 5725187182425231040}
-  - {fileID: -8277588539573580250}
-  - {fileID: 7632203668983053954}
-  - {fileID: 427328788121810078}
-  - {fileID: 2464061725385810546}
-  - {fileID: -3935176070588199330}
-  - {fileID: 2654760772598807101}
-  - {fileID: -8655959379951315301}
-  - {fileID: 8283463926296032605}
-  - {fileID: 764858886161813254}
-  - {fileID: 5305607142500271518}
-  - {fileID: 6058163598530499810}
-  - {fileID: -5737592678079389997}
-  - {fileID: -3420109260813849053}
-  - {fileID: -8556918248442150814}
-  - {fileID: 75943705931121800}
-  - {fileID: 250462400162924730}
-  - {fileID: 5999188293080624288}
-  - {fileID: -8915746163167917175}
-  - {fileID: 8070121643822932105}
-  - {fileID: -150176037452311864}
-  - {fileID: 1306887305757346419}
-  - {fileID: -5850378285327906926}
-  - {fileID: -6186960586701660017}
-  - {fileID: -3377837644373077274}
-  - {fileID: -7921857842969470344}
-  - {fileID: 451752198236688486}
-  - {fileID: 2805231121235425349}
-  - {fileID: 2515759396347993295}
-  - {fileID: 1562071721409757340}
-  - {fileID: -202906620749070790}
-  - {fileID: 7838451880288066867}
-  - {fileID: 2619931955297511127}
-  - {fileID: 5985002334078447531}
-  - {fileID: 6552928997125069079}
-  - {fileID: 6890950948566025579}
-  - {fileID: 4482515587143634772}
-  - {fileID: 2941371239523706089}
-  - {fileID: -3566689587698291499}
-  - {fileID: -6462865811261780055}
-  - {fileID: -4361213951624200989}
-  - {fileID: -7159234598171075750}
-  EditorParameters:
-  - {fileID: 4128461394545709697}
-  - {fileID: -7193589546574022986}
-  MasterBanks:
-  - {fileID: 4809189091761036105}
-  StringsBanks:
-  - {fileID: -420384192902456101}
-  cacheTime: 638785914472270599
-  cacheVersion: 131622
---- !u!114 &75943705931121800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/L3Music_Alone_2D
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/L3Music_Alone_2D
-  Guid:
-    Data1: -772082940
-    Data2: 1337052100
-    Data3: 533671612
-    Data4: -978743907
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &250462400162924730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/2DStems/Ring
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/2DStems/Ring
-  Guid:
-    Data1: -203143161
-    Data2: 1299944954
-    Data3: -1931023206
-    Data4: -68289857
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &427328788121810078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Piano
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Piano
-  Guid:
-    Data1: 214796691
-    Data2: 1118763508
-    Data3: -1882379135
-    Data4: 1252012509
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8298014756843876940}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &451752198236688486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Ambience/2DAmbience/OfficeIndoor
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Ambience/2DAmbience/OfficeIndoor
-  Guid:
-    Data1: 1244391590
-    Data2: 1138539100
-    Data3: 906993284
-    Data4: 104318665
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 67762
---- !u!114 &764858886161813254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Piano2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Piano2D
-  Guid:
-    Data1: -223536144
-    Data2: 1270958591
-    Data3: 16722859
-    Data4: -1936896883
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &787606027047793761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/2DStems/Violin2D
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/2DStems/Violin2D
-  Guid:
-    Data1: 1328056947
-    Data2: 1158049006
-    Data3: 1521376911
-    Data4: 66715141
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &1306887305757346419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/2DStems/Drum
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/2DStems/Drum
-  Guid:
-    Data1: 1794567519
-    Data2: 1223710401
-    Data3: 1252943017
-    Data4: -207770268
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &1562071721409757340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/3DStems/Bass
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/3DStems/Bass
-  Guid:
-    Data1: 98012108
-    Data2: 1102324438
-    Data3: 1418965632
-    Data4: 1660187652
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &2464061725385810546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/3DStems/Tuba
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/3DStems/Tuba
-  Guid:
-    Data1: -1532824429
-    Data2: 1204792667
-    Data3: -1077981004
-    Data4: -714874009
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &2515759396347993295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/3DStems/Guitar
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/3DStems/Guitar
-  Guid:
-    Data1: -654270005
-    Data2: 1268276616
-    Data3: -352823367
-    Data4: 1482754935
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &2619931955297511127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
-  Guid:
-    Data1: -1184819512
-    Data2: 1302744748
-    Data3: 1131900050
-    Data4: 1241720756
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 99696
---- !u!114 &2654760772598807101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Violin
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Violin
-  Guid:
-    Data1: -1469228590
-    Data2: 1330017721
-    Data3: 2015971732
-    Data4: 743302414
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -3475943311116407584}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &2805231121235425349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Music/2DStems/Bass
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Music/2DStems/Bass
-  Guid:
-    Data1: 112570814
-    Data2: 1261547744
-    Data3: 1801988509
-    Data4: 924935040
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 56571
---- !u!114 &2941371239523706089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
-  Guid:
-    Data1: -1446083869
-    Data2: 1167680464
-    Data3: 957930428
-    Data4: 1171032112
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 300
---- !u!114 &3067412575615996150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Bell/Mix
-  m_EditorClassIdentifier: 
-  Name: Mix
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2538558641
-    data2: 1384653202
-  Type: 1
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &3580085520708265523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/PhoneF
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Sounds/3DSounds/PhoneF
-  Guid:
-    Data1: 1887710750
-    Data2: 1085423168
-    Data3: 1327556772
-    Data4: 367799206
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 70745
---- !u!114 &4004336690280825016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/3DStems/Shaker
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/3DStems/Shaker
-  Guid:
-    Data1: -227003333
-    Data2: 1156584029
-    Data3: -564108641
-    Data4: 1824468379
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &4128461394545709697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Outdoor
-  m_EditorClassIdentifier: 
-  Name: Outdoor
-  StudioPath: parameter:/Outdoor
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 276439152
-    data2: 3309105108
-  Type: 1
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &4482515587143634772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
-  m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
-  Guid:
-    Data1: -1730935329
-    Data2: 1270746351
-    Data3: 432774
-    Data4: -1761007346
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 125
---- !u!114 &4809189091761036105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD/Moments/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638785914472220593
-  FileSizes:
-  - Name: Desktop
-    Value: 15565344
-  Exists: 1
---- !u!114 &5028239331240767853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/L2Music_Unknow_2D
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/L2Music_Unknow_2D
-  Guid:
-    Data1: -847645431
-    Data2: 1340977912
-    Data3: 395113358
-    Data4: -2109978393
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &5305607142500271518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Ambience/3DAmbientSound/PC
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Ambience/3DAmbientSound/PC
-  Guid:
-    Data1: 797483775
-    Data2: 1140859184
-    Data3: 1434032272
-    Data4: -892585232
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 80808
---- !u!114 &5725187182425231040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Shaker
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Shaker
-  Guid:
-    Data1: 311804030
-    Data2: 1222417977
-    Data3: -1510182238
-    Data4: -1794599001
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &5985002334078447531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
-  Guid:
-    Data1: 279714297
-    Data2: 1084613705
-    Data3: -617134184
-    Data4: 1771923363
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 566
---- !u!114 &5999188293080624288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 2
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 2
-  Guid:
-    Data1: 1432615205
-    Data2: 1081420180
-    Data3: 425775762
-    Data4: -935657458
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 81003
---- !u!114 &6058163598530499810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/WorldSounds/Door/DoorLockPush
-  m_EditorClassIdentifier: 
-  Path: event:/WorldSounds/Door/DoorLockPush
-  Guid:
-    Data1: 241110302
-    Data2: 1271388232
-    Data3: 2039484835
-    Data4: -661619828
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 142
---- !u!114 &6477920106270979972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/2DStems/Flute
-  m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/2DStems/Flute
-  Guid:
-    Data1: 285671460
-    Data2: 1265890559
-    Data3: -556982864
-    Data4: -300769497
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 72000
---- !u!114 &6552928997125069079
+--- !u!114 &-8407616512243702346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1481,7 +51,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 330
---- !u!114 &6890950948566025579
+--- !u!114 &-8302850528471077152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1491,24 +61,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  m_Name: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 1
   m_EditorClassIdentifier: 
-  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  Path: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 1
   Guid:
-    Data1: 1586764945
-    Data2: 1237519672
-    Data3: -1023415141
-    Data4: 1303650382
+    Data1: -958272420
+    Data2: 1124084681
+    Data3: -113199720
+    Data4: 278940741
   Banks:
   - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 225
---- !u!114 &6904783438897472486
+  Length: 84118
+--- !u!114 &-8214647438794063286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1518,14 +88,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L2Forest_Unknow/Music/3DStems/Horn
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Horn
   m_EditorClassIdentifier: 
-  Path: event:/L2Forest_Unknow/Music/3DStems/Horn
+  Path: event:/L2Forest_Unknow/Music/2DStems/Horn
   Guid:
-    Data1: 1388063806
-    Data2: 1278192157
-    Data3: 762320547
-    Data4: 115821812
+    Data1: 864666753
+    Data2: 1232761383
+    Data3: -1535031393
+    Data4: 1642772359
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
@@ -1535,34 +105,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
---- !u!114 &7632203668983053954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Sounds/2DSounds/PickUpCycle
-  m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Sounds/2DSounds/PickUpCycle
-  Guid:
-    Data1: 37591186
-    Data2: 1146504735
-    Data3: -1425229411
-    Data4: 115472993
-  Banks:
-  - {fileID: 4809189091761036105}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 206
---- !u!114 &7838451880288066867
+--- !u!114 &-8210454888018008481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1589,7 +132,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 460
---- !u!114 &8070121643822932105
+--- !u!114 &-7316311747982550270
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1599,14 +142,95 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Ambience/2DAmbience/HallWay
+  m_Name: event:/L2Forest_Unknow/Music/3DStems/Tuba
   m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Ambience/2DAmbience/HallWay
+  Path: event:/L2Forest_Unknow/Music/3DStems/Tuba
   Guid:
-    Data1: 1475013468
-    Data2: 1100738876
-    Data3: 44602549
-    Data4: 650786161
+    Data1: -1532824429
+    Data2: 1204792667
+    Data3: -1077981004
+    Data4: -714874009
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &-7218609937632453536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Sounds/2DSounds/PickUpCycle
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Sounds/2DSounds/PickUpCycle
+  Guid:
+    Data1: 37591186
+    Data2: 1146504735
+    Data3: -1425229411
+    Data4: 115472993
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 206
+--- !u!114 &-7119830254702040416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/3DStems/Shaker
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/3DStems/Shaker
+  Guid:
+    Data1: -227003333
+    Data2: 1156584029
+    Data3: -564108641
+    Data4: 1824468379
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &-6921945916232435897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Ambience/2DAmbience/OfficeIndoor
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Ambience/2DAmbience/OfficeIndoor
+  Guid:
+    Data1: 1244391590
+    Data2: 1138539100
+    Data3: 906993284
+    Data4: 104318665
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 1
@@ -1615,8 +239,8 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 44395
---- !u!114 &8283463926296032605
+  Length: 67762
+--- !u!114 &-6826479695466128848
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1626,25 +250,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/Music/3DStems/Bell
+  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
   m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/Music/3DStems/Bell
+  Path: event:/L1Office_Cycles/Sounds/3DSounds/DropTick
   Guid:
-    Data1: 1033308379
-    Data2: 1247525645
-    Data3: -318473795
-    Data4: -1656449464
+    Data1: 1232699573
+    Data2: 1292852275
+    Data3: 243465127
+    Data4: 557125991
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3067412575615996150}
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 70745
---- !u!114 &8298014756843876940
+  Length: 356
+--- !u!114 &-6673229243927866623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1668,7 +291,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &8852504267928352067
+--- !u!114 &-6356822272079730568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1678,14 +301,96 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/L1Office_Cycles/L1Music_Cycles_2D
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Cello2D
   m_EditorClassIdentifier: 
-  Path: event:/L1Office_Cycles/L1Music_Cycles_2D
+  Path: event:/L1Office_Cycles/Music/2DStems/Cello2D
   Guid:
-    Data1: -185157320
-    Data2: 1208967383
-    Data3: 852724364
-    Data4: -1242936046
+    Data1: 845077203
+    Data2: 1191188987
+    Data3: 1758358690
+    Data4: 1413654269
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-5310127003703702643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Piano2D
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/2DStems/Piano2D
+  Guid:
+    Data1: -223536144
+    Data2: 1270958591
+    Data3: 16722859
+    Data4: -1936896883
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-5282607668308868313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Bell
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Bell
+  Guid:
+    Data1: 1033308379
+    Data2: 1247525645
+    Data3: -318473795
+    Data4: -1656449464
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5181569170235441077}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-5240283942726413802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Ambience/2DAmbience/HouseAmbience
+  Guid:
+    Data1: -1184819512
+    Data2: 1302744748
+    Data3: 1131900050
+    Data4: 1241720756
   Banks:
   - {fileID: 4809189091761036105}
   IsStream: 1
@@ -1694,8 +399,478 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 99696
+--- !u!114 &-3923999837508719943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Sounds/3DSounds/DropForest
+  Guid:
+    Data1: 279714297
+    Data2: 1084613705
+    Data3: -617134184
+    Data4: 1771923363
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 566
+--- !u!114 &-3766439867447764551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Cello
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Cello
+  Guid:
+    Data1: 1761317070
+    Data2: 1303425915
+    Data3: -2009610825
+    Data4: 2139419762
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2707015721635836772}
+  MinDistance: 1
+  MaxDistance: 20
   Length: 70745
---- !u!114 &8894316350025162626
+--- !u!114 &-3495820157735641874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/3DStems/Guitar
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/3DStems/Guitar
+  Guid:
+    Data1: -654270005
+    Data2: 1268276616
+    Data3: -352823367
+    Data4: 1482754935
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &-3263598539383480184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorOpen
+  Guid:
+    Data1: -895892406
+    Data2: 1126191284
+    Data3: 1394550193
+    Data4: 338959613
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1490
+--- !u!114 &-3093441716276099249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Violin/Mix
+  m_EditorClassIdentifier: 
+  Name: Mix
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2538558641
+    data2: 1384653202
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2428262067661225191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/2DStems/Clarinet2D
+  Guid:
+    Data1: -517680711
+    Data2: 1218190992
+    Data3: -670948428
+    Data4: 1708497054
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-2071486145923386987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/2DStems/Drum
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/2DStems/Drum
+  Guid:
+    Data1: 1794567519
+    Data2: 1223710401
+    Data3: 1252943017
+    Data4: -207770268
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &-1918615506760004693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Outdoor
+  m_EditorClassIdentifier: 
+  Name: Outdoor
+  StudioPath: parameter:/Outdoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 276439152
+    data2: 3309105108
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1375079246218209511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Bell2D
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/2DStems/Bell2D
+  Guid:
+    Data1: 569331504
+    Data2: 1281787229
+    Data3: 1321960621
+    Data4: 1115254091
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-1245592853781807174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Flute
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/2DStems/Flute
+  Guid:
+    Data1: 285671460
+    Data2: 1265890559
+    Data3: -556982864
+    Data4: -300769497
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &-1052957073028966421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Violin
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Violin
+  Guid:
+    Data1: -1469228590
+    Data2: 1330017721
+    Data3: 2015971732
+    Data4: 743302414
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3093441716276099249}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &-420384192902456101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Moments/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638787153581140774
+  FileSizes:
+  - Name: Desktop
+    Value: 4054
+  Exists: 1
+--- !u!114 &-19385327601809854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Indoor
+  m_EditorClassIdentifier: 
+  Name: Indoor
+  StudioPath: parameter:/Indoor
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3378697653
+    data2: 4055506963
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -420384192902456101}
+  - {fileID: 4809189091761036105}
+  EditorEvents:
+  - {fileID: 8340381419357303285}
+  - {fileID: 6271900610274194497}
+  - {fileID: 5064875723274566430}
+  - {fileID: 1937434185470375496}
+  - {fileID: 6956905493702067162}
+  - {fileID: 732544095476785259}
+  - {fileID: 5669618647674196317}
+  - {fileID: 8088845900519370646}
+  - {fileID: 8173214882396295464}
+  - {fileID: -1245592853781807174}
+  - {fileID: 4784454753581604756}
+  - {fileID: 7989758356258892508}
+  - {fileID: -8407616512243702346}
+  - {fileID: -1375079246218209511}
+  - {fileID: 8172392027545332723}
+  - {fileID: 6967486647861921331}
+  - {fileID: -7119830254702040416}
+  - {fileID: 7222834613533443304}
+  - {fileID: -3263598539383480184}
+  - {fileID: 790724028558969045}
+  - {fileID: -8302850528471077152}
+  - {fileID: -2071486145923386987}
+  - {fileID: 1174541578729793607}
+  - {fileID: 209186966852198133}
+  - {fileID: 8140659479845010628}
+  - {fileID: 7359194668748485102}
+  - {fileID: 7980644930221144068}
+  - {fileID: -8214647438794063286}
+  - {fileID: 7189294677279504516}
+  - {fileID: 4858469994364215261}
+  - {fileID: 1448352485942840982}
+  - {fileID: -7218609937632453536}
+  - {fileID: -8210454888018008481}
+  - {fileID: 5929166031569259036}
+  - {fileID: -7316311747982550270}
+  - {fileID: 1913648759503503490}
+  - {fileID: 7589660390059416333}
+  - {fileID: -6921945916232435897}
+  - {fileID: -6826479695466128848}
+  - {fileID: -2428262067661225191}
+  - {fileID: 6015443594050883166}
+  - {fileID: -5240283942726413802}
+  - {fileID: -3495820157735641874}
+  - {fileID: 7147856954849187937}
+  - {fileID: -3766439867447764551}
+  - {fileID: -1052957073028966421}
+  - {fileID: -6356822272079730568}
+  - {fileID: -5282607668308868313}
+  - {fileID: 2401973508475347912}
+  - {fileID: 614954601914094203}
+  - {fileID: -5310127003703702643}
+  - {fileID: -3923999837508719943}
+  - {fileID: 2624564566278398490}
+  EditorParameters:
+  - {fileID: -1918615506760004693}
+  - {fileID: -19385327601809854}
+  MasterBanks:
+  - {fileID: 4809189091761036105}
+  StringsBanks:
+  - {fileID: -420384192902456101}
+  cacheTime: 638787153581140774
+  cacheVersion: 131622
+--- !u!114 &209186966852198133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Clarinet
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Clarinet
+  Guid:
+    Data1: 726865006
+    Data2: 1129957936
+    Data3: 1513736108
+    Data4: 1007731706
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8980284990726644628}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &614954601914094203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/3DSounds/Dropping_House
+  Guid:
+    Data1: -1446083869
+    Data2: 1167680464
+    Data3: 957930428
+    Data4: 1171032112
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
+--- !u!114 &732544095476785259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1722,3 +897,828 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72000
+--- !u!114 &790724028558969045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Ambience/2DAmbience/HallWay
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Ambience/2DAmbience/HallWay
+  Guid:
+    Data1: 1475013468
+    Data2: 1100738876
+    Data3: 44602549
+    Data4: 650786161
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44395
+--- !u!114 &1174541578729793607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorLock
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorLock
+  Guid:
+    Data1: 788735842
+    Data2: 1112757774
+    Data3: 769881775
+    Data4: -1528269782
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2084
+--- !u!114 &1448352485942840982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Blanket
+  Guid:
+    Data1: 1586764945
+    Data2: 1237519672
+    Data3: -1023415141
+    Data4: 1303650382
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 225
+--- !u!114 &1913648759503503490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/3DStems/Harp
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/3DStems/Harp
+  Guid:
+    Data1: 163454874
+    Data2: 1315568813
+    Data3: -1509831525
+    Data4: 108319501
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &1937434185470375496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/L2Music_Unknow_2D
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/L2Music_Unknow_2D
+  Guid:
+    Data1: -847645431
+    Data2: 1340977912
+    Data3: 395113358
+    Data4: -2109978393
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &2401973508475347912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Sounds/2DSounds/PickUp_Glass
+  Guid:
+    Data1: -1730935329
+    Data2: 1270746351
+    Data3: 432774
+    Data4: -1761007346
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125
+--- !u!114 &2624564566278398490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Ambience/3DAmbientSound/PC
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Ambience/3DAmbientSound/PC
+  Guid:
+    Data1: 797483775
+    Data2: 1140859184
+    Data3: 1434032272
+    Data4: -892585232
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 80808
+--- !u!114 &2707015721635836772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cello/Mix
+  m_EditorClassIdentifier: 
+  Name: Mix
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2538558641
+    data2: 1384653202
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4784454753581604756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 2
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Ambience/3DAmbientSound/TreeBirds 2
+  Guid:
+    Data1: 1432615205
+    Data2: 1081420180
+    Data3: 425775762
+    Data4: -935657458
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 81003
+--- !u!114 &4809189091761036105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Moments/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638787153581085645
+  FileSizes:
+  - Name: Desktop
+    Value: 17733792
+  Exists: 1
+--- !u!114 &4858469994364215261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/3DStems/Ring
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/3DStems/Ring
+  Guid:
+    Data1: -228861307
+    Data2: 1296835973
+    Data3: -97201274
+    Data4: 227516564
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &5064875723274566430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/2DStems/Ring
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/2DStems/Ring
+  Guid:
+    Data1: -203143161
+    Data2: 1299944954
+    Data3: -1931023206
+    Data4: -68289857
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &5181569170235441077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bell/Mix
+  m_EditorClassIdentifier: 
+  Name: Mix
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2538558641
+    data2: 1384653202
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5669618647674196317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WorldSounds/Door/DoorLockPush
+  m_EditorClassIdentifier: 
+  Path: event:/WorldSounds/Door/DoorLockPush
+  Guid:
+    Data1: 241110302
+    Data2: 1271388232
+    Data3: 2039484835
+    Data4: -661619828
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 142
+--- !u!114 &5929166031569259036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/3DStems/Piano
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/3DStems/Piano
+  Guid:
+    Data1: 214796691
+    Data2: 1118763508
+    Data3: -1882379135
+    Data4: 1252012509
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6673229243927866623}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &6015443594050883166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/2DStems/Bass
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/2DStems/Bass
+  Guid:
+    Data1: 112570814
+    Data2: 1261547744
+    Data3: 1801988509
+    Data4: 924935040
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &6271900610274194497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/L3Music_Alone_2D
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/L3Music_Alone_2D
+  Guid:
+    Data1: -772082940
+    Data2: 1337052100
+    Data3: 533671612
+    Data4: -978743907
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &6956905493702067162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/PhoneS
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Sounds/3DSounds/PhoneS
+  Guid:
+    Data1: 1492253194
+    Data2: 1285234819
+    Data3: -800439373
+    Data4: 1159891132
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &6967486647861921331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/L1Music_Cycles_2D
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/L1Music_Cycles_2D
+  Guid:
+    Data1: -185157320
+    Data2: 1208967383
+    Data3: 852724364
+    Data4: -1242936046
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &7147856954849187937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/3DStems/Bass
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/3DStems/Bass
+  Guid:
+    Data1: 98012108
+    Data2: 1102324438
+    Data3: 1418965632
+    Data4: 1660187652
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &7189294677279504516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/3DStems/Kalimba
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/3DStems/Kalimba
+  Guid:
+    Data1: 335769988
+    Data2: 1240339570
+    Data3: 1624051901
+    Data4: -753188210
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &7222834613533443304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/3DStems/Horn
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/3DStems/Horn
+  Guid:
+    Data1: 1388063806
+    Data2: 1278192157
+    Data3: 762320547
+    Data4: 115821812
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &7359194668748485102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/2DStems/Guitar
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/2DStems/Guitar
+  Guid:
+    Data1: 470867573
+    Data2: 1082979983
+    Data3: -736869468
+    Data4: 2036404523
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &7589660390059416333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Ambience/2DAmbience/Forest
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Ambience/2DAmbience/Forest
+  Guid:
+    Data1: 466088861
+    Data2: 1145097825
+    Data3: 1534923705
+    Data4: -1864519874
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 127735
+--- !u!114 &7980644930221144068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Shaker
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/2DStems/Shaker
+  Guid:
+    Data1: 311804030
+    Data2: 1222417977
+    Data3: -1510182238
+    Data4: -1794599001
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &7989758356258892508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/2DStems/Kalimba
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/2DStems/Kalimba
+  Guid:
+    Data1: -321856727
+    Data2: 1337679456
+    Data3: -1689651313
+    Data4: 854691194
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857
+--- !u!114 &8088845900519370646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Sounds/3DSounds/PhoneF
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Sounds/3DSounds/PhoneF
+  Guid:
+    Data1: 1887710750
+    Data2: 1085423168
+    Data3: 1327556772
+    Data4: 367799206
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &8140659479845010628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L1Office_Cycles/Music/2DStems/Violin2D
+  m_EditorClassIdentifier: 
+  Path: event:/L1Office_Cycles/Music/2DStems/Violin2D
+  Guid:
+    Data1: 1328056947
+    Data2: 1158049006
+    Data3: 1521376911
+    Data4: 66715141
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70745
+--- !u!114 &8172392027545332723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Harp
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/2DStems/Harp
+  Guid:
+    Data1: -249369545
+    Data2: 1260960348
+    Data3: -62823747
+    Data4: -699083526
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &8173214882396295464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L2Forest_Unknow/Music/2DStems/Tuba
+  m_EditorClassIdentifier: 
+  Path: event:/L2Forest_Unknow/Music/2DStems/Tuba
+  Guid:
+    Data1: -112697057
+    Data2: 1146206007
+    Data3: -474329951
+    Data4: -1786082331
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72000
+--- !u!114 &8340381419357303285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/L3House_Alone/Music/3DStems/Drum
+  m_EditorClassIdentifier: 
+  Path: event:/L3House_Alone/Music/3DStems/Drum
+  Guid:
+    Data1: -1524034557
+    Data2: 1084613088
+    Data3: 1341683089
+    Data4: 708090951
+  Banks:
+  - {fileID: 4809189091761036105}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54857

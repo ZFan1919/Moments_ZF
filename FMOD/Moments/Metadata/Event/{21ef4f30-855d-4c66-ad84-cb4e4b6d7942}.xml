@@ -168,7 +168,7 @@
 	<object class="MixerBusFader" id="{a650bc2b-b08b-41b6-aaf1-d522f5c05a76}" />
 	<object class="PannerEffect" id="{b61485b8-b5ae-41d9-af44-6a10fa43370c}">
 		<property name="stereoPan">
-			<value>15</value>
+			<value>10</value>
 		</property>
 		<property name="overridingOutputFormat">
 			<value>1</value>

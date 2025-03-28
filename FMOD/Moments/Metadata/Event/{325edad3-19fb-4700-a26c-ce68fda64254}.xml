@@ -5,7 +5,7 @@
 			<value>Cello2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1688fc8-3b10-41ca-8dfc-6e0f3c29e136}</destination>
@@ -155,6 +155,7 @@
 	<object class="MixerBusEffectChain" id="{925dac3f-1b65-4cad-b3ba-1c87192718c0}">
 		<relationship name="effects">
 			<destination>{6844d546-bfaf-4bb4-a65f-d1e2b75fde8f}</destination>
+			<destination>{d409d689-2e90-48b4-897c-4b48efa75155}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e8a8b129-d2a8-4712-be07-41a477ba66f2}" />
@@ -165,4 +166,12 @@
 	</object>
 	<object class="MixerBusFader" id="{1334ff8d-c9c9-4be5-845d-41bce014a8f7}" />
 	<object class="MixerBusFader" id="{6844d546-bfaf-4bb4-a65f-d1e2b75fde8f}" />
+	<object class="PannerEffect" id="{d409d689-2e90-48b4-897c-4b48efa75155}">
+		<property name="stereoPan">
+			<value>5</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

@@ -54,7 +54,7 @@
 			<destination>{f19533e2-57de-46f1-af54-62fbcafeda33}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{4f374783-4c4c-48bf-905f-160e5958a427}</destination>
+			<destination>{d8ccbd6e-be79-4ac2-b058-fd2c3e797cc7}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{540f7e0a-5fd1-4505-886f-f6b28b560eb6}" />
@@ -82,6 +82,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b0ad17ee-99e6-4f5f-a2b8-a449561b8051}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{649e6bb8-8275-4966-b802-be779e4771c5}</destination>
 		</relationship>
@@ -146,7 +149,6 @@
 		<property name="timelockedOffset">
 			<value>0.45000000000000001</value>
 		</property>
-		<property name="name" />
 		<property name="pitch">
 			<value>13</value>
 		</property>

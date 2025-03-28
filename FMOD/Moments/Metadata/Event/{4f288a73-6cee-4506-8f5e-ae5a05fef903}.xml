@@ -5,7 +5,7 @@
 			<value>Violin2D</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d1688fc8-3b10-41ca-8dfc-6e0f3c29e136}</destination>
@@ -155,6 +155,7 @@
 	<object class="MixerBusEffectChain" id="{fa984b04-649d-4689-a125-9577873e450e}">
 		<relationship name="effects">
 			<destination>{2c4f154e-c83b-46c7-a2df-78b414afee25}</destination>
+			<destination>{72ab5da5-83d0-4c36-bf3e-70107d9e4362}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6e86bfa5-1d60-4cf5-a6b8-c5858a6fef9b}" />
@@ -165,4 +166,12 @@
 	</object>
 	<object class="MixerBusFader" id="{fb37e9b4-6e29-45a5-8f83-077a1380c198}" />
 	<object class="MixerBusFader" id="{2c4f154e-c83b-46c7-a2df-78b414afee25}" />
+	<object class="PannerEffect" id="{72ab5da5-83d0-4c36-bf3e-70107d9e4362}">
+		<property name="stereoPan">
+			<value>-5</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 </objects>

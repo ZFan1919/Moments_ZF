@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9cda5673-8b53-4add-8952-ba2140a55cd0}">
+		<property name="assetPath">
+			<value>L2Forest_Unknown/MusicStem/mus_3-4_90_Forest_lp_Horn.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>72</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0777ee3f-a60c-45c6-a385-4f62aa2bc9eb}</destination>
+		</relationship>
+	</object>
+</objects>
